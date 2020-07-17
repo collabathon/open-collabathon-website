@@ -1,0 +1,70 @@
+h1 {
+  text-transform: uppercase;
+  font-size: 40pt;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 24pt;
+  margin: 10pt;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.material-icons {
+  font-size: 40pt;
+}
+
+:hover.material-icons {
+  color: var(--highlight);
+  transform: scale(1.05);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+button {
+  padding: 7.5pt;
+  background-color: var(--text);
+  color: var(--base);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
+:root {
+  --highlight: #00ff84;
+  --midtone: #d1d1d1;
+  --base: #ffffff;
+  --text: black;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+  padding: 15pt;
+}
+
+p1 {
+  padding: 10pt;
+  display: block;
+}
+
+body {
+  background-color: var(--midtone);
+}
